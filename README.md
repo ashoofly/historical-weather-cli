@@ -24,5 +24,5 @@ Data from the [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/search) to
 
 ## Assumptions
 
-* Though what we think of as 'precipitation' usually includes snowfall, somewhat confusingly, the PRCP column of the NOAA data looks like it does not include SNOW (e.g., line 12 - PRCP: 2.3, SNOW: 43.0). So in calculating the days of precipitation, I have added both columns together.
+* Though what we think of as 'precipitation' usually includes snowfall, somewhat confusingly, the PRCP column of the NOAA data looks like it does not include SNOW (e.g., line 12 - PRCP: 2.3, SNOW: 43.0). So in calculating the days of precipitation, I have considered a nonzero value in either of these columns as counting towards a day of precipitation.
 
